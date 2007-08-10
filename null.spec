@@ -17,6 +17,8 @@ Summary: Test package
 A dummy subpackage
 
 %prep
+/bin/false
+
 %build
 %install
 rm -rf %{buildroot}
