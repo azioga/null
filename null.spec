@@ -1,6 +1,6 @@
 Name: null
 Version: 2
-Release: %mkrel 3
+Release: %mkrel 4
 Summary: A dummy package for bs testing purpose
 Group: Development/Other
 License: GPL
@@ -17,7 +17,6 @@ Summary: Test package
 A dummy subpackage
 
 %prep
-/bin/false
 
 %build
 %install
