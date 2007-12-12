@@ -1,6 +1,6 @@
 Name: null
 Version: 2
-Release: %mkrel 5
+Release: %mkrel 6
 Summary: A dummy package for bs testing purpose
 Group: Development/Other
 License: GPL
