@@ -28,3 +28,4 @@ rm -rf %{buildroot}
 
 %files
 %files dummy
+
