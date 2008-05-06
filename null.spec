@@ -17,6 +17,7 @@ Summary: Test package
 A dummy subpackage
 
 %prep
+%setup -D -T -n .
 
 %build
 %install
