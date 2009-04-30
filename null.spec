@@ -1,6 +1,6 @@
 Name: null
 Version: 2
-Release: %mkrel 13
+Release: %mkrel 14
 Summary: A dummy package for bs testing purpose
 Group: Development/Other
 License: GPL
@@ -26,6 +26,9 @@ mkdir -p %{buildroot}
 
 %clean
 rm -rf %{buildroot}
+
+%post -p /bin/csh
+echo "csh sux"
 
 %files
 %files dummy
