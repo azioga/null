@@ -1,7 +1,7 @@
 Epoch: 1
 Name: null
 Version: 2.1
-Release: %mkrel 25
+Release: %mkrel 26
 Summary: A dummy package for bs testing purpose
 Group: Development/Other
 License: GPL
@@ -21,6 +21,9 @@ A dummy subpackage
 %setup -D -T -n .
 
 %build
+# to allow watching packages during their build time (temporary)
+sleep 10m
+
 %install
 rm -rf %{buildroot}
 mkdir -p %{buildroot}
