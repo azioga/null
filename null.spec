@@ -36,4 +36,3 @@ echo "csh sux"
 
 %files
 %files dummy
-
