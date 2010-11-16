@@ -1,7 +1,7 @@
 Epoch: 1
 Name: null
 Version: 2.1
-Release: %mkrel 31
+Release: %mkrel 32
 Summary: A dummy package for bs testing purpose
 Group: Development/Other
 License: GPL
