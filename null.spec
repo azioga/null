@@ -1,11 +1,10 @@
 Epoch: 1
-Name: null-bar
-Version: 2.2
-Release: %mkrel 35
+Name: null
+Version: 2.1
+Release: %mkrel 32
 Summary: A dummy package for bs testing purpose
 Group: Development/Other
 License: GPL
-Provides: null
 Buildroot: %{_tmppath}/%{name}-%{version}-root
 
 %description
