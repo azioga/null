@@ -1,11 +1,12 @@
 Epoch: 1
 Name: null
 Version: 2.1
-Release: 48
+Release: 49
 Summary: A dummy package for bs testing purpose
 Group: Development/Other
 License: GPL
 Buildroot: %{_tmppath}/%{name}-%{version}-root
+Blabla:
 
 %description
 Dummy package.
