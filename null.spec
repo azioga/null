@@ -1,8 +1,9 @@
 Epoch: 1
 Name: null
 Version: 2.1
-Release: 54
+Release: 55
 Summary: A dummy package for bs testing purpose
+Patch0: missing-patch.patch
 Group: Development/Other
 License: GPL
 Buildroot: %{_tmppath}/%{name}-%{version}-root
