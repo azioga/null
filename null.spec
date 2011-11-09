@@ -1,11 +1,13 @@
 Epoch: 1
 Name: null
 Version: 2.1
-Release: 67
+Release: 67.1
 Summary: A dummy package for bs testing purpose
 Group: Development/Other
 License: GPL
 Buildroot: %{_tmppath}/%{name}-%{version}-root
+
+BuildRequires:	texlive
 
 %description
 Dummy package.
@@ -22,7 +24,7 @@ A dummy subpackage
 
 %build
 ## to allow watching packages during their build time
-##sleep 10m
+sleep 10m
 
 %install
 rm -rf %{buildroot}
