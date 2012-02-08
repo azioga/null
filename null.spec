@@ -7,8 +7,6 @@ Group: Development/Other
 License: GPL
 Buildroot: %{_tmppath}/%{name}-%{version}-root
 
-BuildRequires:	texlive
-
 %description
 Dummy package.
 
