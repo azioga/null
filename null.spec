@@ -5,7 +5,6 @@ Release: 68
 Summary: A dummy package for bs testing purpose
 Group: Development/Other
 License: GPL
-Buildroot: %{_tmppath}/%{name}-%{version}-root
 
 %description
 Dummy package.
