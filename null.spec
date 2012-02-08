@@ -3,7 +3,7 @@ Name: null
 Version: 2.1
 Release: 69
 Summary: A dummy package for bs testing purpose
-Group: Barbarbarbabrbarbar
+Group: Development/Other
 License: GPL
 
 %description
