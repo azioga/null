@@ -20,8 +20,6 @@ A dummy subpackage.
 %setup -D -T -n .
 
 %build
-## to allow watching packages during their build time
-sleep 10m
 
 %install
 rm -rf %{buildroot}
