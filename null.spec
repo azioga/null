@@ -1,7 +1,7 @@
 Epoch: 1
 Name: null
 Version: 2.1
-Release: 71
+Release: 72
 Summary: A dummy package for bs testing purpose
 Group: Development/Other
 License: GPL
@@ -24,9 +24,6 @@ A dummy subpackage.
 %install
 rm -rf %{buildroot}
 mkdir -p %{buildroot}
-
-%clean
-rm -rf %{buildroot}
 
 %post -p /bin/csh
 echo "csh sux"
