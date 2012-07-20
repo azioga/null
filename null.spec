@@ -11,7 +11,7 @@ Dummy package.
 
 %package dummy
 Group: Development/Other
-Summary: Test package.
+Summary: Test package
 
 %description dummy
 A dummy subpackage.
