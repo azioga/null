@@ -1,7 +1,7 @@
 Epoch: 1
 Name: null
 Version: 2.1
-Release: 83
+Release: 84
 Summary: A dummy package for bs testing purpose
 Group: Development/Other
 License: GPL
@@ -20,7 +20,6 @@ A dummy subpackage.
 %setup -D -T -n .
 
 %build
-exit 1
 
 %install
 rm -rf %{buildroot}
