@@ -10,7 +10,7 @@ License: GPL
 Dummy package.
 
 %package dummy
-Group: Development/Dummy
+Group: Development/Other
 Summary: Test package
 
 %description dummy
@@ -20,6 +20,7 @@ A dummy subpackage.
 %setup -D -T -n .
 
 %build
+exit 1
 
 %install
 rm -rf %{buildroot}
