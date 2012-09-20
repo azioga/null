@@ -1,7 +1,7 @@
 Epoch: 1
 Name: null
 Version: 2.1
-Release: 82
+Release: 83
 Summary: A dummy package for bs testing purpose
 Group: Development/Other
 License: GPL
@@ -10,7 +10,7 @@ License: GPL
 Dummy package.
 
 %package dummy
-Group: Development/Other
+Group: Development/Dummy
 Summary: Test package
 
 %description dummy
