@@ -20,7 +20,6 @@ A dummy subpackage.
 %setup -D -T -n .
 
 %build
-exit 1
 
 %install
 rm -rf %{buildroot}
