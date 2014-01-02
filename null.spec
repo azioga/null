@@ -1,3 +1,6 @@
+%define _enable_debug_packages %{nil}
+%define debug_package %{nil}
+
 Epoch:		1
 Name:		null
 Version:	2.1
