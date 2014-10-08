@@ -4,7 +4,7 @@
 Epoch:		1
 Name:		null
 Version:	2.1
-Release:	83
+Release:	84
 Summary:	A dummy package for bs testing purpose
 Group:		Development/Other
 License:	GPL
