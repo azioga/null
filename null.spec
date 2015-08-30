@@ -1,11 +1,11 @@
 %define _enable_debug_packages %{nil}
 %define debug_package %{nil}
 
-Epoch:		1
+Summary:	A dummy package for bs testing purpose
 Name:		null
 Version:	2.1
 Release:	89
-Summary:	A dummy package for bs testing purpose
+Epoch:		1
 Group:		Development/Other
 License:	GPL
 
